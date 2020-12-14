@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "giftMessage",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "eric-galluzzo",
+      "connection": "techdaysproductionlines_SERVICEBUS"
+    }
+  ]
+}
